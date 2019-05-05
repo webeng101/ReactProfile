@@ -213,7 +213,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-image{
    padding: 0 50px;
-   margin: 50px 0;
+   margin: 50px 0 0 0;
    text-align: center;
    vertical-align: middle;
 }
@@ -236,6 +236,13 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+
+#projects {
+   background: #f5f5f5;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -1102,19 +1109,23 @@ div.right{
  }
  .hex-text{
     text-align: center;
-    color: #616161;
+    color: #666;
     background:transparent;
     font-size: 18pt;
  }
  .hex-text-title{
-   font-family: 'Raleway-bold';
    line-height: 20pt;
    font-size: 20pt;
    margin: 15px;
+   font-weight: bold;
+   color: #666;
  }
  .center{
     text-align: center;
     margin: 30px 0 0 0;
+ }
+ .chart-col{
+   margin-top: 50px;
  }
 @media screen and (min-width: 600px)
 {
